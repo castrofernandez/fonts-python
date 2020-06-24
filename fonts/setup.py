@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 
 """
-Copyright (c) 2017 Pimoroni
+MIT License
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do
-so, subject to the following conditions:
+Copyright (c) 2020 Juan Castro Fernández
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
@@ -39,14 +41,14 @@ classifiers = ['Development Status :: 5 - Production/Stable',
 
 setup(
     name            = 'fonts',
-    version         = '0.0.3',
-    author          = 'Philip Howard',
-    author_email    = 'phil@pimoroni.com',
+    version         = '0.0.1',
+    author          = 'Juan Castro Fernández',
+    author_email    = 'hola@juancastro.es',
     description     = 'Python Fonts',
     long_description= open('README.rst').read() + '\n' + open('CHANGELOG.txt').read(),
     license         = 'MIT, OFL',
     keywords        = 'Fonts',
-    url             = 'https://github.com/pimoroni/fonts-python',
+    url             = 'https://github.com/castrofernandez/fonts-python',
     classifiers     = classifiers,
     py_modules      = [],
     packages        = ['fonts', 'fonts.ttf', 'fonts.otf'],
