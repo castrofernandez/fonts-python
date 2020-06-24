@@ -51,8 +51,8 @@ setup(
     url             = 'https://github.com/castrofernandez/fonts-python',
     classifiers     = classifiers,
     py_modules      = [],
-    packages        = ['font-kaushan-script'],
-    package_data    = {'font-kaushan-script': ['font-kaushan-script/files']},
+    packages        = ['font_kaushan_script'],
+    package_data    = {'font_kaushan_script': ['font-kaushan-script/files']},
     entry_points    = {
         'fonts_otf': [
             'kaushan-script = font_kaushan_script:font_files_otf'
