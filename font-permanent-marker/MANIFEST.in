@@ -1,0 +1,7 @@
+include CHANGELOG.txt
+include LICENSE.txt
+include README.txt
+include setup.py
+recursive-include font_permanent_marker *.py
+recursive-include font_permanent_marker/files *.ttf
+include font_permanent_marker/files/OFL.txt

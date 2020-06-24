@@ -2,6 +2,6 @@ include CHANGELOG.txt
 include LICENSE.txt
 include README.txt
 include setup.py
-recursive-include font-kaushan-script *.py
-recursive-include font-kaushan-script/files *.otf
-include font-kaushan-script/files/OFL.txt
+recursive-include font_kaushan_script *.py
+recursive-include font_kaushan_script/files *.otf
+include font_kaushan_script/files/OFL.txt
