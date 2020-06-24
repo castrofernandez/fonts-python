@@ -3,5 +3,5 @@ include LICENSE.txt
 include README.txt
 include setup.py
 recursive-include font_kaushan_script *.py
-recursive-include font_kaushan_script/files *.otf
+recursive-include font_kaushan_script/files *.ttf
 include font_kaushan_script/files/OFL.txt

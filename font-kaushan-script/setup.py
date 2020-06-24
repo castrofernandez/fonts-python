@@ -41,7 +41,7 @@ classifiers = ['Development Status :: 5 - Production/Stable',
 
 setup(
     name            = 'font-kaushan-script',
-    version         = '0.0.2',
+    version         = '0.0.1',
     author          = 'Juan Castro Fernández',
     author_email    = 'hola@juancastro.es',
     description     = 'Kaushan Script handwriting font',
