@@ -54,8 +54,8 @@ setup(
     packages        = ['font_kaushan_script'],
     package_data    = {'font_kaushan_script': ['font_kaushan_script/files']},
     entry_points    = {
-        'fonts_otf': [
-            'kaushan-script = font_kaushan_script:font_files_otf'
+        'fonts_ttf': [
+            'kaushan-script = font_kaushan_script:font_files'
         ]
     },
     zip_safe        = False,
